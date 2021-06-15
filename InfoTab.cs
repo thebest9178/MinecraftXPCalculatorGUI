@@ -32,7 +32,7 @@ namespace MinecraftXPCalculatorGUI
         private void VisitLink()
         {
             //This will open the link with the default browser
-            System.Diagnostics.Process.Start("https://github.com/thebest9178/MinecraftXPCalculator");
+            System.Diagnostics.Process.Start("https://github.com/thebest9178/MinecraftXPCalculatorGUI");
         }
     }
 }
