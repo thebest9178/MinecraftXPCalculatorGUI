@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3ED8BEE7-7EB1-4C3A-9029-2F60E5CC23FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MinecraftXPCalculatorGUI</RootNamespace>
+    <AssemblyName>MinecraftXPCalculatorGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>XPCalcIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalcTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcTab.Designer.cs">
+      <DependentUpon>CalcTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoTab.Designer.cs">
+      <DependentUpon>InfoTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CalcTab.resx">
+      <DependentUpon>CalcTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoTab.resx">
+      <DependentUpon>InfoTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\striderhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cowhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolphinicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foxhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horseicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Llamaicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pandahead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parroticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pighead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polarbearhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_mooshroomhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salmonicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sheephead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siamesehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squidhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turtleicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wolficon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endermitehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cave_spiderhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blazehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravagerhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huskhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragonhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witherhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slimeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nether_gold_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coal_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lapis_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nether_quartz_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emerald_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spawner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ancient_debris_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cactus_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wet_sponge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oak_log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clay_ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rabbit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porkchop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salmon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chorus_fruit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cobblestone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white_terracotta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherrack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone_bricks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_helmet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golden_helmet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chainmail_helmet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_horse_armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golden_horse_armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\experience_bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emerald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishing_rod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XPCalcIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
