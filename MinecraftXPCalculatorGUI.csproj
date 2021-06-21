@@ -80,18 +80,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -309,6 +309,63 @@
     <None Include="Resources\fishing_rod.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\babyhuskhead.png" />
+    <None Include="Resources\evoker.png" />
+    <None Include="Resources\guardian_elder.png" />
+    <None Include="Resources\guardian.png" />
+    <None Include="Resources\piglin_brute.png" />
+    <None Include="Resources\largemagmacube.png" />
+    <None Include="Resources\mediummagmacube.png" />
+    <None Include="Resources\smallmagmacube.png" />
+    <None Include="Resources\babydrowned.png" />
+    <None Include="Resources\babyzombie.png" />
+    <None Include="Resources\babypiglin.png" />
+    <None Include="Resources\babyzombie_villager.png" />
+    <None Include="Resources\creeper.png" />
+    <None Include="Resources\creeper1.png" />
+    <None Include="Resources\drowned.png" />
+    <None Include="Resources\enderman.png" />
+    <None Include="Resources\hoglin.png" />
+    <None Include="Resources\ghast.png" />
+    <None Include="Resources\phantom.png" />
+    <None Include="Resources\piglin.png" />
+    <None Include="Resources\pillager.png" />
+    <None Include="Resources\shulker.png" />
+    <None Include="Resources\silverfish.png" />
+    <None Include="Resources\skeleton.png" />
+    <None Include="Resources\spider.png" />
+    <None Include="Resources\stray.png" />
+    <None Include="Resources\vex.png" />
+    <None Include="Resources\vindicator.png" />
+    <None Include="Resources\witch.png" />
+    <None Include="Resources\witch1.png" />
+    <None Include="Resources\wither_skeleton.png" />
+    <None Include="Resources\zombie.png" />
+    <None Include="Resources\zombie_villager.png" />
+    <None Include="Resources\zoglin.png" />
+    <None Include="Resources\zombified_piglin.png" />
+    <None Include="Resources\largeslime.png" />
+    <None Include="Resources\mediumslime.png" />
+    <None Include="Resources\smallslime.png" />
+    <None Include="Resources\siamese.png" />
+    <None Include="Resources\chicken1.png" />
+    <None Include="Resources\cow.png" />
+    <None Include="Resources\pufferfish.png" />
+    <None Include="Resources\fox.png" />
+    <None Include="Resources\horse_white.png" />
+    <None Include="Resources\brown.png" />
+    <None Include="Resources\red_mooshroom.png" />
+    <None Include="Resources\ocelot.png" />
+    <None Include="Resources\panda.png" />
+    <None Include="Resources\parrot.png" />
+    <None Include="Resources\pig.png" />
+    <None Include="Resources\polarbear.png" />
+    <None Include="Resources\whiterabbit.png" />
+    <None Include="Resources\sheep.png" />
+    <None Include="Resources\squid.png" />
+    <None Include="Resources\dolphin.png" />
+    <None Include="Resources\turtle.png" />
+    <None Include="Resources\wolf.png" />
     <Content Include="XPCalcIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

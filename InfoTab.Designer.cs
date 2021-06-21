@@ -32,7 +32,6 @@ namespace MinecraftXPCalculatorGUI
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnGitHubLink = new System.Windows.Forms.LinkLabel();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,7 +50,7 @@ namespace MinecraftXPCalculatorGUI
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 83);
+            this.label2.Location = new System.Drawing.Point(12, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 20);
             this.label2.TabIndex = 0;
@@ -63,7 +62,7 @@ namespace MinecraftXPCalculatorGUI
             this.btnGitHubLink.AutoSize = true;
             this.btnGitHubLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGitHubLink.LinkColor = System.Drawing.Color.White;
-            this.btnGitHubLink.Location = new System.Drawing.Point(167, 83);
+            this.btnGitHubLink.Location = new System.Drawing.Point(166, 83);
             this.btnGitHubLink.Name = "btnGitHubLink";
             this.btnGitHubLink.Size = new System.Drawing.Size(343, 20);
             this.btnGitHubLink.TabIndex = 1;
@@ -71,17 +70,6 @@ namespace MinecraftXPCalculatorGUI
             this.btnGitHubLink.Text = "github.com/thebest9178/MinecraftXPCalculator";
             this.btnGitHubLink.VisitedLinkColor = System.Drawing.Color.White;
             this.btnGitHubLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.btnGitHubLink_LinkClicked);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(13, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(321, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "The mob icons are not yet fully implemented.";
             // 
             // InfoTab
             // 
@@ -91,7 +79,6 @@ namespace MinecraftXPCalculatorGUI
             this.ClientSize = new System.Drawing.Size(985, 725);
             this.Controls.Add(this.btnGitHubLink);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InfoTab";
@@ -106,6 +93,5 @@ namespace MinecraftXPCalculatorGUI
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel btnGitHubLink;
-        private System.Windows.Forms.Label label3;
     }
 }

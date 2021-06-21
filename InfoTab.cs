@@ -19,20 +19,8 @@ namespace MinecraftXPCalculatorGUI
 
         private void btnGitHubLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try
-            {
-                VisitLink();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Uh Oh, Something went fucky");
-            }
-        }
-
-        private void VisitLink()
-        {
             //This will open the link with the default browser
-            System.Diagnostics.Process.Start("https://github.com/thebest9178/MinecraftXPCalculatorGUI");
+            System.Diagnostics.Process.Start("https://github.com/thebest9178/MinecraftXPCalculator");
         }
     }
 }

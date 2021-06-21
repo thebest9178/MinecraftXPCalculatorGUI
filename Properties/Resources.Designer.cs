@@ -73,6 +73,66 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap babydrowned {
+            get {
+                object obj = ResourceManager.GetObject("babydrowned", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap babyhusk {
+            get {
+                object obj = ResourceManager.GetObject("babyhusk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap babypiglin {
+            get {
+                object obj = ResourceManager.GetObject("babypiglin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap babyzombie {
+            get {
+                object obj = ResourceManager.GetObject("babyzombie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap babyzombie_villager {
+            get {
+                object obj = ResourceManager.GetObject("babyzombie_villager", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bee {
+            get {
+                object obj = ResourceManager.GetObject("bee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap beef {
             get {
                 object obj = ResourceManager.GetObject("beef", resourceCulture);
@@ -83,9 +143,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap beehead {
+        internal static System.Drawing.Bitmap blaze {
             get {
-                object obj = ResourceManager.GetObject("beehead", resourceCulture);
+                object obj = ResourceManager.GetObject("blaze", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +153,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blazehead {
+        internal static System.Drawing.Bitmap brown {
             get {
-                object obj = ResourceManager.GetObject("blazehead", resourceCulture);
+                object obj = ResourceManager.GetObject("brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +173,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cave_spiderhead {
+        internal static System.Drawing.Bitmap cave_spider {
             get {
-                object obj = ResourceManager.GetObject("cave_spiderhead", resourceCulture);
+                object obj = ResourceManager.GetObject("cave_spider", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +203,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap chickenhead {
+        internal static System.Drawing.Bitmap chickenItem {
             get {
-                object obj = ResourceManager.GetObject("chickenhead", resourceCulture);
+                object obj = ResourceManager.GetObject("chickenItem", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +283,19 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cowhead {
+        internal static System.Drawing.Bitmap cow {
             get {
-                object obj = ResourceManager.GetObject("cowhead", resourceCulture);
+                object obj = ResourceManager.GetObject("cow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap creeper {
+            get {
+                object obj = ResourceManager.GetObject("creeper", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +313,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Dolphinicon {
+        internal static System.Drawing.Bitmap dolphin {
             get {
-                object obj = ResourceManager.GetObject("Dolphinicon", resourceCulture);
+                object obj = ResourceManager.GetObject("dolphin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +323,19 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dragonhead {
+        internal static System.Drawing.Bitmap dragon {
             get {
-                object obj = ResourceManager.GetObject("dragonhead", resourceCulture);
+                object obj = ResourceManager.GetObject("dragon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drowned {
+            get {
+                object obj = ResourceManager.GetObject("drowned", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +363,29 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap endermitehead {
+        internal static System.Drawing.Bitmap enderman {
             get {
-                object obj = ResourceManager.GetObject("endermitehead", resourceCulture);
+                object obj = ResourceManager.GetObject("enderman", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap endermite {
+            get {
+                object obj = ResourceManager.GetObject("endermite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap evoker {
+            get {
+                object obj = ResourceManager.GetObject("evoker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +413,19 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap foxhead {
+        internal static System.Drawing.Bitmap fox {
             get {
-                object obj = ResourceManager.GetObject("foxhead", resourceCulture);
+                object obj = ResourceManager.GetObject("fox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ghast {
+            get {
+                object obj = ResourceManager.GetObject("ghast", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +463,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Horseicon {
+        internal static System.Drawing.Bitmap guardian {
             get {
-                object obj = ResourceManager.GetObject("Horseicon", resourceCulture);
+                object obj = ResourceManager.GetObject("guardian", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +473,39 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap huskhead {
+        internal static System.Drawing.Bitmap guardian_elder {
             get {
-                object obj = ResourceManager.GetObject("huskhead", resourceCulture);
+                object obj = ResourceManager.GetObject("guardian_elder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hoglin {
+            get {
+                object obj = ResourceManager.GetObject("hoglin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap horse_white {
+            get {
+                object obj = ResourceManager.GetObject("horse_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap husk {
+            get {
+                object obj = ResourceManager.GetObject("husk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +563,39 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Llamaicon {
+        internal static System.Drawing.Bitmap largemagmacube {
             get {
-                object obj = ResourceManager.GetObject("Llamaicon", resourceCulture);
+                object obj = ResourceManager.GetObject("largemagmacube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap largeslime {
+            get {
+                object obj = ResourceManager.GetObject("largeslime", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mediummagmacube {
+            get {
+                object obj = ResourceManager.GetObject("mediummagmacube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mediumslime {
+            get {
+                object obj = ResourceManager.GetObject("mediumslime", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -483,9 +653,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pandahead {
+        internal static System.Drawing.Bitmap ocelot {
             get {
-                object obj = ResourceManager.GetObject("pandahead", resourceCulture);
+                object obj = ResourceManager.GetObject("ocelot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,9 +663,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Parroticon {
+        internal static System.Drawing.Bitmap panda {
             get {
-                object obj = ResourceManager.GetObject("Parroticon", resourceCulture);
+                object obj = ResourceManager.GetObject("panda", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,9 +673,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pighead {
+        internal static System.Drawing.Bitmap parrot {
             get {
-                object obj = ResourceManager.GetObject("pighead", resourceCulture);
+                object obj = ResourceManager.GetObject("parrot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,9 +683,59 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap polarbearhead {
+        internal static System.Drawing.Bitmap phantom {
             get {
-                object obj = ResourceManager.GetObject("polarbearhead", resourceCulture);
+                object obj = ResourceManager.GetObject("phantom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pig {
+            get {
+                object obj = ResourceManager.GetObject("pig", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap piglin {
+            get {
+                object obj = ResourceManager.GetObject("piglin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap piglin_brute {
+            get {
+                object obj = ResourceManager.GetObject("piglin_brute", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pillager {
+            get {
+                object obj = ResourceManager.GetObject("pillager", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap polarbear {
+            get {
+                object obj = ResourceManager.GetObject("polarbear", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,6 +763,16 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pufferfish {
+            get {
+                object obj = ResourceManager.GetObject("pufferfish", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rabbit {
             get {
                 object obj = ResourceManager.GetObject("rabbit", resourceCulture);
@@ -553,9 +783,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ravagerhead {
+        internal static System.Drawing.Bitmap ravager {
             get {
-                object obj = ResourceManager.GetObject("ravagerhead", resourceCulture);
+                object obj = ResourceManager.GetObject("ravager", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,9 +793,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap red_mooshroomhead {
+        internal static System.Drawing.Bitmap red_mooshroom {
             get {
-                object obj = ResourceManager.GetObject("red_mooshroomhead", resourceCulture);
+                object obj = ResourceManager.GetObject("red_mooshroom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,16 +823,6 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Salmonicon {
-            get {
-                object obj = ResourceManager.GetObject("Salmonicon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap sand {
             get {
                 object obj = ResourceManager.GetObject("sand", resourceCulture);
@@ -613,9 +833,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sheephead {
+        internal static System.Drawing.Bitmap sheep {
             get {
-                object obj = ResourceManager.GetObject("sheephead", resourceCulture);
+                object obj = ResourceManager.GetObject("sheep", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -623,9 +843,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap siamesehead {
+        internal static System.Drawing.Bitmap shulker {
             get {
-                object obj = ResourceManager.GetObject("siamesehead", resourceCulture);
+                object obj = ResourceManager.GetObject("shulker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +853,49 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Slimeicon {
+        internal static System.Drawing.Bitmap siamese {
             get {
-                object obj = ResourceManager.GetObject("Slimeicon", resourceCulture);
+                object obj = ResourceManager.GetObject("siamese", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silverfish {
+            get {
+                object obj = ResourceManager.GetObject("silverfish", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skeleton {
+            get {
+                object obj = ResourceManager.GetObject("skeleton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smallmagmacube {
+            get {
+                object obj = ResourceManager.GetObject("smallmagmacube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smallslime {
+            get {
+                object obj = ResourceManager.GetObject("smallslime", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,9 +913,19 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap squidhead {
+        internal static System.Drawing.Bitmap spider {
             get {
-                object obj = ResourceManager.GetObject("squidhead", resourceCulture);
+                object obj = ResourceManager.GetObject("spider", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap squid {
+            get {
+                object obj = ResourceManager.GetObject("squid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -683,9 +953,9 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap striderhead {
+        internal static System.Drawing.Bitmap stray {
             get {
-                object obj = ResourceManager.GetObject("striderhead", resourceCulture);
+                object obj = ResourceManager.GetObject("stray", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -693,9 +963,39 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Turtleicon {
+        internal static System.Drawing.Bitmap strider {
             get {
-                object obj = ResourceManager.GetObject("Turtleicon", resourceCulture);
+                object obj = ResourceManager.GetObject("strider", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap turtle {
+            get {
+                object obj = ResourceManager.GetObject("turtle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vex {
+            get {
+                object obj = ResourceManager.GetObject("vex", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vindicator {
+            get {
+                object obj = ResourceManager.GetObject("vindicator", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -733,6 +1033,36 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap whiterabbit {
+            get {
+                object obj = ResourceManager.GetObject("whiterabbit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap witch {
+            get {
+                object obj = ResourceManager.GetObject("witch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wither_skeleton {
+            get {
+                object obj = ResourceManager.GetObject("wither_skeleton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap witherhead {
             get {
                 object obj = ResourceManager.GetObject("witherhead", resourceCulture);
@@ -743,9 +1073,49 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Wolficon {
+        internal static System.Drawing.Bitmap wolf {
             get {
-                object obj = ResourceManager.GetObject("Wolficon", resourceCulture);
+                object obj = ResourceManager.GetObject("wolf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zoglin {
+            get {
+                object obj = ResourceManager.GetObject("zoglin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zombie {
+            get {
+                object obj = ResourceManager.GetObject("zombie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zombie_villager {
+            get {
+                object obj = ResourceManager.GetObject("zombie_villager", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zombified_piglin {
+            get {
+                object obj = ResourceManager.GetObject("zombified_piglin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
