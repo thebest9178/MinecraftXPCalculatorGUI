@@ -25,11 +25,11 @@ namespace MinecraftXPCalculatorGUI
 
             //Killing
             double PassiveGroup1_Amount = 1.5; //Strider (1-2)
-            int PassiveGroup2_Amount = 2; //Bee Cat Chicken Fish Cow Fox Horses Llama Mooshroom Ocelot Panda Parrot Pig PolarBear Rabbit Sheep Squid Dolphin Turtle Wolf (1-3)
+            int PassiveGroup2_Amount = 2; //Bee Cat Chicken Fish Cow Fox Horses Llama Mooshroom Ocelot Panda Parrot Pig PolarBear Rabbit Sheep Squid Dolphin Turtle Wolf GlowSquid Goat (1-3)
             int MonstersGroup1_Amount = 3; //Endermite (3)
             int MonstersGroup2_Amount = 5; //CaveSpider Creeper Drowned Enderman Ghast Hoglin Husk Illusioner Phantom Piglin Pillager Shulker Silverfish Skeleton Spider Stray Vex Vindicator Witch WitherSkeleton Zombie ZombieVillager Zoglin ZombifiedPiglin (5 Ignoring armour)
             int MonstersGroup3_Amount = 10; //Blaze Evoker ElderGuardian Guardian (10)
-            int MonstersGroup4_Amount = 20; //Ravager PiglinBrute
+            int MonstersGroup4_Amount = 20; //Ravager PiglinBrute (20)
             int BabyMonsters_Amount = 12; //BabyHusk BabyDrowned BabyZombie BabyZombifiedPiglin BabyZombieVillager (12 Ignoring armour)
             int LargeCubicMobs_Amount = 4; //LargeSlime LargeMagmaCube (4)
             int MediumCubicMobs_Amount = 2; //MediumSlime MediumMagmaCube (2)
@@ -105,144 +105,113 @@ namespace MinecraftXPCalculatorGUI
             double Fishing = calculatedxp / Fishing_Amount;
 
             //Round up to nearest integer because you can't do only a fraction of an action
-            double PassiveGroup1_Ceil = Math.Ceiling(PassiveGroup1);
-            double PassiveGroup2_Ceil = Math.Ceiling(PassiveGroup2);
-            double MonstersGroup1_Ceil = Math.Ceiling(MonstersGroup1);
-            double MonstersGroup2_Ceil = Math.Ceiling(MonstersGroup2);
-            double MonstersGroup3_Ceil = Math.Ceiling(MonstersGroup3);
-            double MonstersGroup4_Ceil = Math.Ceiling(MonstersGroup4);
-            double BabyMonsters_Ceil = Math.Ceiling(BabyMonsters);
-            double LargeCubicMobs_Ceil = Math.Ceiling(LargeCubicMobs);
-            double MediumCubicMobs_Ceil = Math.Ceiling(MediumCubicMobs);
-            double SmallCubicMobs_Ceil = Math.Ceiling(SmallCubicMobs);
-            double EnderDragon_Ceil = Math.Ceiling(EnderDragon);
-            double Wither_Ceil = Math.Ceiling(Wither);
+            PassiveGroup1 = (int)Math.Ceiling(PassiveGroup1);
+            PassiveGroup2 = (int)Math.Ceiling(PassiveGroup2);
+            MonstersGroup1 = (int)Math.Ceiling(MonstersGroup1);
+            MonstersGroup2 = (int)Math.Ceiling(MonstersGroup2);
+            MonstersGroup3 = (int)Math.Ceiling(MonstersGroup3);
+            MonstersGroup4 = (int)Math.Ceiling(MonstersGroup4);
+            BabyMonsters = (int)Math.Ceiling(BabyMonsters);
+            LargeCubicMobs = (int)Math.Ceiling(LargeCubicMobs);
+            MediumCubicMobs = (int)Math.Ceiling(MediumCubicMobs);
+            SmallCubicMobs = (int)Math.Ceiling(SmallCubicMobs);
+            EnderDragon = (int)Math.Ceiling(EnderDragon);
+            Wither = (int)Math.Ceiling(Wither);
 
-            double MiningGroup1_Ceil = Math.Ceiling(MiningGroup1);
-            double MiningGroup2_Ceil = Math.Ceiling(MiningGroup2);
-            double MiningGroup3_Ceil = Math.Ceiling(MiningGroup3);
-            double MiningGroup4_Ceil = Math.Ceiling(MiningGroup4);
-            double MiningGroup5_Ceil = Math.Ceiling(MiningGroup5);
-            double MiningGroup6_Ceil = Math.Ceiling(MiningGroup6);
+            MiningGroup1 = (int)Math.Ceiling(MiningGroup1);
+            MiningGroup2 = (int)Math.Ceiling(MiningGroup2);
+            MiningGroup3 = (int)Math.Ceiling(MiningGroup3);
+            MiningGroup4 = (int)Math.Ceiling(MiningGroup4);
+            MiningGroup5 = (int)Math.Ceiling(MiningGroup5);
+            MiningGroup6 = (int)Math.Ceiling(MiningGroup6);
 
-            double SmeltingGroup1_Ceil = Math.Ceiling(SmeltingGroup1);
-            double SmeltingGroup2_Ceil = Math.Ceiling(SmeltingGroup2);
-            double SmeltingGroup3_Ceil = Math.Ceiling(SmeltingGroup3);
-            double SmeltingGroup4_Ceil = Math.Ceiling(SmeltingGroup4);
-            double SmeltingGroup5_Ceil = Math.Ceiling(SmeltingGroup5);
-            double SmeltingGroup6_Ceil = Math.Ceiling(SmeltingGroup6);
-            double SmeltingGroup7_Ceil = Math.Ceiling(SmeltingGroup7);
-            double SmeltingGroup8_Ceil = Math.Ceiling(SmeltingGroup8);
+            SmeltingGroup1 = (int)Math.Ceiling(SmeltingGroup1);
+            SmeltingGroup2 = (int)Math.Ceiling(SmeltingGroup2);
+            SmeltingGroup3 = (int)Math.Ceiling(SmeltingGroup3);
+            SmeltingGroup4 = (int)Math.Ceiling(SmeltingGroup4);
+            SmeltingGroup5 = (int)Math.Ceiling(SmeltingGroup5);
+            SmeltingGroup6 = (int)Math.Ceiling(SmeltingGroup6);
+            SmeltingGroup7 = (int)Math.Ceiling(SmeltingGroup7);
+            SmeltingGroup8 = (int)Math.Ceiling(SmeltingGroup8);
 
-            double BottleoEnchanting_Ceil = Math.Ceiling(BottleoEnchanting);
-            double VillagerTrade_Ceil = Math.Ceiling(VillagerTrade);
-            double AnimalBreeding_Ceil = Math.Ceiling(AnimalBreeding);
-            double Fishing_Ceil = Math.Ceiling(Fishing);
-
-            //Convertion of finals to be used with labels
-            string strcalculatedxp = calculatedxp.ToString();
-            string strpassivegroup1 = PassiveGroup1_Ceil.ToString();
-            string strpassivegroup2 = PassiveGroup2_Ceil.ToString();
-            string strmonstersgroup1 = MonstersGroup1_Ceil.ToString();
-            string strmonstersgroup2 = MonstersGroup2_Ceil.ToString();
-            string strmonstersgroup3 = MonstersGroup3_Ceil.ToString();
-            string strmonstersgroup4 = MonstersGroup4_Ceil.ToString();
-            string strbabymonsters = BabyMonsters_Ceil.ToString();
-            string strlargecubicmobs = LargeCubicMobs_Ceil.ToString();
-            string strmediumcubicmobs = MediumCubicMobs_Ceil.ToString();
-            string strsmallcubicmobs = SmallCubicMobs_Ceil.ToString();
-            string strenderdragon = EnderDragon_Ceil.ToString();
-            string strwither = Wither_Ceil.ToString();
-
-            string strmininggroup1 = MiningGroup1_Ceil.ToString();//TODO: Create and implement icons/labels for the rest of the sources.
-            string strmininggroup2 = MiningGroup2_Ceil.ToString();
-            string strmininggroup3 = MiningGroup3_Ceil.ToString();
-            string strmininggroup4 = MiningGroup4_Ceil.ToString();
-            string strmininggroup5 = MiningGroup5_Ceil.ToString();
-            string strmininggroup6 = MiningGroup6_Ceil.ToString();
-
-            string strsmeltinggroup1 = SmeltingGroup1_Ceil.ToString();
-            string strsmeltinggroup2 = SmeltingGroup2_Ceil.ToString();
-            string strsmeltinggroup3 = SmeltingGroup3_Ceil.ToString();
-            string strsmeltinggroup4 = SmeltingGroup4_Ceil.ToString();
-            string strsmeltinggroup5 = SmeltingGroup5_Ceil.ToString();
-            string strsmeltinggroup6 = SmeltingGroup6_Ceil.ToString();
-            string strsmeltinggroup7 = SmeltingGroup7_Ceil.ToString();
-            string strsmeltinggroup8 = SmeltingGroup8_Ceil.ToString();
-
-            string strbottleoenchanting = BottleoEnchanting_Ceil.ToString();
-            string strvillagertrade = VillagerTrade_Ceil.ToString();
-            string stranimalbreeding = AnimalBreeding_Ceil.ToString();
-            string strfishing = Fishing_Ceil.ToString();
+            BottleoEnchanting = (int)Math.Ceiling(BottleoEnchanting);
+            VillagerTrade = (int)Math.Ceiling(VillagerTrade);
+            AnimalBreeding = (int)Math.Ceiling(AnimalBreeding);
+            Fishing = (int)Math.Ceiling(Fishing);
 
             //set labels and turns visable
-            lblpassivegroup1.Text = strpassivegroup1;
+            lblpassivegroup1.Text = PassiveGroup1.ToString();
             lblpassivegroup1.Visible = true;
-            lblpassivegroup2.Text = strpassivegroup2;
+            lblpassivegroup2.Text = PassiveGroup2.ToString();
             lblpassivegroup2.Visible = true;
-            lblmonstersgroup1.Text = strmonstersgroup1;
+            lblmonstersgroup1.Text = MonstersGroup1.ToString();
             lblmonstersgroup1.Visible = true;
-            lblmonstersgroup2.Text = strmonstersgroup2;
+            lblmonstersgroup2.Text = MonstersGroup2.ToString();
             lblmonstersgroup2.Visible = true;
-            lblmonstersgroup3.Text = strmonstersgroup3;
+            lblmonstersgroup3.Text = MonstersGroup3.ToString();
             lblmonstersgroup3.Visible = true;
-            lblmonstersgroup4.Text = strmonstersgroup4;
+            lblmonstersgroup4.Text = MonstersGroup4.ToString();
             lblmonstersgroup4.Visible = true;
-            lblbabymonsters.Text = strbabymonsters;
+            lblbabymonsters.Text = BabyMonsters.ToString();
             lblbabymonsters.Visible = true;
-            lbllargecubicmobs.Text = strlargecubicmobs;
+            lbllargecubicmobs.Text = LargeCubicMobs.ToString();
             lbllargecubicmobs.Visible = true;
-            lblmediumcubicmobs.Text = strmediumcubicmobs;
+            lblmediumcubicmobs.Text = MediumCubicMobs.ToString();
             lblmediumcubicmobs.Visible = true;
-            lblsmallcubicmobs.Text = strsmallcubicmobs;
+            lblsmallcubicmobs.Text = SmallCubicMobs.ToString();
             lblsmallcubicmobs.Visible = true;
-            lblenderdragon.Text = strenderdragon;
+            lblenderdragon.Text = EnderDragon.ToString();
             lblenderdragon.Visible = true;
-            lblwither.Text = strwither;
+            lblwither.Text = Wither.ToString();
             lblwither.Visible = true;
 
-            lblmininggroup1.Text = strmininggroup1;
+            lblmininggroup1.Text = MiningGroup1.ToString();
             lblmininggroup1.Visible = true;
-            lblmininggroup2.Text = strmininggroup2;
+            lblmininggroup2.Text = MiningGroup2.ToString();
             lblmininggroup2.Visible = true;
-            lblmininggroup3.Text = strmininggroup3;
+            lblmininggroup3.Text = MiningGroup3.ToString();
             lblmininggroup3.Visible = true;
-            lblmininggroup4.Text = strmininggroup4;
+            lblmininggroup4.Text = MiningGroup4.ToString();
             lblmininggroup4.Visible = true;
-            lblmininggroup5.Text = strmininggroup5;
+            lblmininggroup5.Text = MiningGroup5.ToString();
             lblmininggroup5.Visible = true;
-            lblmininggroup6.Text = strmininggroup6;
+            lblmininggroup6.Text = MiningGroup6.ToString();
             lblmininggroup6.Visible = true;
 
-            lblsmeltinggroup1.Text = strsmeltinggroup1;
+            lblsmeltinggroup1.Text = SmeltingGroup1.ToString();
             lblsmeltinggroup1.Visible = true;
-            lblsmeltinggroup2.Text = strsmeltinggroup2;
+            lblsmeltinggroup2.Text = SmeltingGroup2.ToString();
             lblsmeltinggroup2.Visible = true;
-            lblsmeltinggroup3.Text = strsmeltinggroup3;
+            lblsmeltinggroup3.Text = SmeltingGroup3.ToString();
             lblsmeltinggroup3.Visible = true;
-            lblsmeltinggroup4.Text = strsmeltinggroup4;
+            lblsmeltinggroup4.Text = SmeltingGroup4.ToString();
             lblsmeltinggroup4.Visible = true;
-            lblsmeltinggroup5.Text = strsmeltinggroup5;
+            lblsmeltinggroup5.Text = SmeltingGroup5.ToString();
             lblsmeltinggroup5.Visible = true;
-            lblsmeltinggroup6.Text = strsmeltinggroup6;
+            lblsmeltinggroup6.Text = SmeltingGroup6.ToString();
             lblsmeltinggroup6.Visible = true;
-            lblsmeltinggroup7.Text = strsmeltinggroup7;
+            lblsmeltinggroup7.Text = SmeltingGroup7.ToString();
             lblsmeltinggroup7.Visible = true;
-            lblsmeltinggroup8.Text = strsmeltinggroup8;
+            lblsmeltinggroup8.Text = SmeltingGroup8.ToString();
             lblsmeltinggroup8.Visible = true;
 
-            lblbottleoenchanting.Text = strbottleoenchanting;
+            lblbottleoenchanting.Text = BottleoEnchanting.ToString();
             lblbottleoenchanting.Visible = true;
-            lblvillagertrade.Text = strvillagertrade;
+            lblvillagertrade.Text = VillagerTrade.ToString();
             lblvillagertrade.Visible = true;
-            lblanimalbreeding.Text = stranimalbreeding;
+            lblanimalbreeding.Text = AnimalBreeding.ToString();
             lblanimalbreeding.Visible = true;
-            lblfishing.Text = strfishing;
+            lblfishing.Text = Fishing.ToString();
             lblfishing.Visible = true;
 
-            lblcalculatedxp.Text = strcalculatedxp;
+            lblcalculatedxp.Text = calculatedxp.ToString();
             lblcalculatedxp.Visible = true;
             label14.Visible = true;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

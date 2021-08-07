@@ -366,6 +366,8 @@
     <None Include="Resources\dolphin.png" />
     <None Include="Resources\turtle.png" />
     <None Include="Resources\wolf.png" />
+    <None Include="Resources\glow_squid.png" />
+    <None Include="Resources\goat.png" />
     <Content Include="XPCalcIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

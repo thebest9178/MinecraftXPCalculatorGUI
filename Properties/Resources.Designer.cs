@@ -433,6 +433,26 @@ namespace MinecraftXPCalculatorGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap glow_squid {
+            get {
+                object obj = ResourceManager.GetObject("glow_squid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goat {
+            get {
+                object obj = ResourceManager.GetObject("goat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gold_ore {
             get {
                 object obj = ResourceManager.GetObject("gold_ore", resourceCulture);

@@ -69,6 +69,7 @@ namespace MinecraftXPCalculatorGUI
             this.lblpassivegroup1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -160,6 +161,8 @@ namespace MinecraftXPCalculatorGUI
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox114 = new System.Windows.Forms.PictureBox();
+            this.pictureBox113 = new System.Windows.Forms.PictureBox();
             this.pictureBox112 = new System.Windows.Forms.PictureBox();
             this.pictureBox109 = new System.Windows.Forms.PictureBox();
             this.pictureBox106 = new System.Windows.Forms.PictureBox();
@@ -181,7 +184,6 @@ namespace MinecraftXPCalculatorGUI
             this.pictureBox100 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -273,6 +275,8 @@ namespace MinecraftXPCalculatorGUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).BeginInit();
@@ -725,6 +729,18 @@ namespace MinecraftXPCalculatorGUI
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 16;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(755, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.TabIndex = 110;
+            this.label1.Text = "Level:";
             // 
             // pictureBox12
             // 
@@ -1665,6 +1681,28 @@ namespace MinecraftXPCalculatorGUI
             this.pictureBox14.TabIndex = 62;
             this.pictureBox14.TabStop = false;
             // 
+            // pictureBox114
+            // 
+            this.pictureBox114.BackgroundImage = global::MinecraftXPCalculatorGUI.Properties.Resources.goat;
+            this.pictureBox114.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox114.Location = new System.Drawing.Point(131, 108);
+            this.pictureBox114.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox114.Name = "pictureBox114";
+            this.pictureBox114.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox114.TabIndex = 63;
+            this.pictureBox114.TabStop = false;
+            // 
+            // pictureBox113
+            // 
+            this.pictureBox113.BackgroundImage = global::MinecraftXPCalculatorGUI.Properties.Resources.glow_squid;
+            this.pictureBox113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox113.Location = new System.Drawing.Point(106, 108);
+            this.pictureBox113.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox113.Name = "pictureBox113";
+            this.pictureBox113.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox113.TabIndex = 63;
+            this.pictureBox113.TabStop = false;
+            // 
             // pictureBox112
             // 
             this.pictureBox112.BackgroundImage = global::MinecraftXPCalculatorGUI.Properties.Resources.wolf;
@@ -1895,17 +1933,6 @@ namespace MinecraftXPCalculatorGUI
             this.pictureBox1.TabIndex = 65;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(755, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
-            this.label1.TabIndex = 110;
-            this.label1.Text = "Level:";
-            // 
             // CalcTab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2011,6 +2038,8 @@ namespace MinecraftXPCalculatorGUI
             this.Controls.Add(this.pictureBox21);
             this.Controls.Add(this.pictureBox36);
             this.Controls.Add(this.pictureBox14);
+            this.Controls.Add(this.pictureBox114);
+            this.Controls.Add(this.pictureBox113);
             this.Controls.Add(this.pictureBox112);
             this.Controls.Add(this.pictureBox109);
             this.Controls.Add(this.pictureBox106);
@@ -2158,6 +2187,8 @@ namespace MinecraftXPCalculatorGUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
@@ -2338,5 +2369,7 @@ namespace MinecraftXPCalculatorGUI
         private System.Windows.Forms.PictureBox pictureBox111;
         private System.Windows.Forms.PictureBox pictureBox112;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox113;
+        private System.Windows.Forms.PictureBox pictureBox114;
     }
 }
